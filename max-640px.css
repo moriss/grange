@@ -1,0 +1,190 @@
+/**MOBILE**/
+.covid_title { background:rgba(251,183,65,0.5); border-radius: 5px;}
+#covid {background:rgba(251,183,65,0.5); border-radius: 5px;}
+#covid p, ul {margin:20px; text-align: justify;}
+
+/**covid message**/
+
+#covid_message {display:none;}
+#covid_heading:hover > #covid_message {display:block;}
+
+
+
+
+
+
+a.teachers_name:link {text-decoration:none;color:grey; font-style: italic;}/* unvisited link */
+a.teachers_name:visited {color:grey; }  /* visited link */
+a.teachers_name:hover {color:grey;font-style: normal;}  /* mouse over link */
+a.teachers_name:active {color:grey;}  /* selected link */
+
+.middle {vertical-align: top;  height:60px;}
+.middle img {}
+.clear {clear:both;}
+
+#title_right {float:left;}
+#title_right h1{padding:0; margin:0 10px 0 0; color:#9A2900;
+font-family: "Times New Roman", Times, serif; font-size:1.9em;}
+#title a {color:#9A2900;}
+
+
+
+h4{margin-bottom: -15px;}
+
+body {margin-top:-15px;/*background-image:url('images/mobilegroup.png');
+background-size:100%;
+background-repeat:no-repeat;*/
+color:#333333;
+}
+h1 {font-size:1.1em;}
+h2{font-size:1em; color:#9a2900;}
+p{font-size:0.9em;}
+
+#container {float:left; border:1px solid grey; border-radius:5px; padding:0 5px; margin:0; font-family:sans-serif; position:relative;width:99%;}
+#topsection{
+border-bottom:1px solid grey; overflow:auto;}
+
+
+#mobymenu {float:right; position:absolute; top:8px; right:15px;
+line-height:10%; width:35px; }
+#mobymenu ul {}
+
+#mobymenu ul li {line-height:120%; list-style-type:none;
+background-color:rgba(0, 0, 0, 0.7); position:relative; right:100px;
+ width:80px; padding:7px; 
+}
+#mobymenu ul li a {color:white; }
+
+
+#title { width:80%;}
+#title h1 {color:#9A2900; font-size:1.3em; margin:0; font-family:"Times New Roman", Georgia, Serif; }
+#title a {color:#9A2900;}
+
+.h1small {color:grey; font-size:0.7em; font-family:sans-serif;
+position:relative; top:-6px; }
+
+#nav {display:none;}
+#nav {float:left; margin:10px 0 0 0;font-family:sans-serif;}
+#nav ul {margin:0; padding:0; }
+#nav ul li {float:left; list-style-type:none; 
+  font-size:0.8em; padding-right:16px; 
+  
+  }
+  
+#nav ul li a {text-decoration:none;}
+
+.mobile {margin-top:-14px;}
+
+/***********************LINKS********************************/
+
+a.nav:link {text-decoration:none;color:#000000;}/* unvisited link */
+a.nav:visited {color:#000000;}  /* visited link */
+a.nav:hover {color:grey;}  /* mouse over link */
+a.nav:active {color:#000000;}  /* selected link */
+
+a.current:link {text-decoration:none; color:grey;}
+a.current:visited {text-decoration:none; color:grey;}
+a.current:hover {text-decoration:none; color:grey;}
+a.current:active {text-decoration:none; color:grey;}
+
+
+a:link {text-decoration:none;color:orange;}/* unvisited link */
+a:visited {color:orange;}  /* visited link */
+a:hover {color:grey;}  /* mouse over link */
+a:active {color:orange;}  /* selected link */
+
+a.hiddin:link {text-decoration:none;color:#333333;}/* unvisited link */
+a.hiddin:visited {color:#333333;}  /* visited link */
+a.hiddin:hover {color:#333333;}  /* mouse over link */
+a.hiddin:active {color:#333333;}  /* selected link */
+
+a.updates:link {text-decoration:underline; color:black;}
+a.updates:visited {text-decoration:none; color:black;}
+a.updates:hover {text-decoration:none; color:grey;}
+a.updates:active {text-decoration:none; color:black;}
+
+
+
+/******************************************************/
+
+
+#introductory {border:1px solid #C76300; margin:5px 0 30px 0;
+					background-color:#FFEBC2; text-align:left; border-radius:5px;}
+#introductory h1, h2, p {padding:5px 10px;}
+#introductory h2 {text-align:center;}
+#introductory a:link {text-decoration:underline;color:black;}
+#introductory a:visited {text-decoration:underline;color:black;}
+#introductory a:hover {text-decoration:underline;color:grey;}
+#introductory a:active {text-decoration:underline;color:black;}
+
+
+#school-updates {width:100%; margin:15px 0 25px 0;
+}
+#school-updates h2 {text-align:center; font-size:1.1em; background-color:black; color:white; border-radius:5px;}
+
+
+#school-updates h3 {font-size:0.9em; margin-bottom:-8px;
+					margin-top:25px; padding-bottom:0; text-align:left; color:#9a2900;
+					padding-left:9px;}
+
+#school-updates p {text-align:left; font-size:0.9em; color:black;}
+
+
+#copyright
+{
+text-align:center;margin:25px 0 25px;0; font-size:0.75em;
+}
+
+#classnotes {font-size:0.8em; position:relative; top:-15px; left:-5px;}
+table, td, th
+{text-align:left; }
+td {padding:2px 20px 2px 0;}
+th{background-color:#9A2900; border-radius:5px; color:white; padding:2px;
+text-align:center;}
+table {margin-top:20px;}
+.prep  {}
+.age {font-size:0.7em;}
+
+
+form table {width:100%;  font-size:0.7em;}
+form table td {width:10px;}
+
+.smalltext {font-size:0.8em;}
+
+h1,h2,h3 {font-weight:normal;}
+
+#school-updates h3, p {}
+
+
+.tops_left
+{ width:100%; margin-top:20px;}
+.tops_left_child1
+{}
+.tops_left_child1 img {width:100%;}
+
+
+.tops_right
+{width:100%;
+ margin-top:15px;}
+.tops_right-child1
+{text-align:left;}
+.tops_right-child1 p {line-height:150%;}
+
+.tops_right-child1 img {
+	width:100%; 
+}
+
+.small_tops_text {font-size:85%;}
+
+.tops_hide_from_mobile {display:none;}
+
+.index_tshirts {width:100%; }
+.index_tshirts img {width:100%;}
+.hide_from_mobile {display:none;}
+
+.news_date_small {font-size:85%;}
+
+
+/**********FAQ'S****************/
+.question {font-weight: bold;}
+.answer {margin-bottom: 80px;}

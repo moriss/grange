@@ -1,0 +1,193 @@
+/* Generic Selectors */ 
+html {height:101%;}
+body { 
+
+	font-family: arial, sans-serif; 
+	color: #333333; 
+	background-image: url("images/rad.png");
+	background-size:180px;
+	background-repeat:no-repeat;
+	background-position:15px 15px;
+	background-attachment:fixed;
+}
+h1 {font-size:1.3em;}
+h2{font-size:1.2em;}
+h3 {font-size:1em;}
+
+.offer {color:#CC6600;}
+.h1small {color:grey; font-size:0.6em;  font-family:sans-serif; position:relative;top:3px;
+}
+#classnotes {font-size:0.8em; position:relative; top:-15px; left:-5px;}
+/**********************tables************************/
+
+
+/**********************links************************/
+a:link {text-decoration:none;color:orange;}/* unvisited link */
+a:visited {color:orange;}  /* visited link */
+a:hover {color:grey;}  /* mouse over link */
+a:active {color:orange;}  /* selected link */
+
+a.hiddin:link {text-decoration:none;color:#333333;}/* unvisited link */
+a.hiddin:visited {color:#333333;}  /* visited link */
+a.hiddin:hover {color:#333333;}  /* mouse over link */
+a.hiddin:active {color:#333333;}  /* selected link */
+
+
+/**********************classes****************************/
+img.right
+{
+
+}
+
+.centerlogo
+{margin:10px auto;
+text-align: center;}
+
+.bold {font-weight:bold;}
+
+/**********************TIMES AND FEES**************************/
+#boxes {width:100%; margin:40px auto 20px auto; float:left; }
+#boxes div { width:48%;  padding:5px;
+border:1px solid #E6E6E6;}
+
+table td, th {width:300px;}
+table, td, th
+{text-align:left;}
+th{background-color:#9A2900; border-radius:5px; color:white; padding:2px;
+text-align:center;}
+table {margin-top:20px;}
+/*************************************************************/
+
+/**********************ID's*******************************/
+#outer {width:100%; min-width:1210px;}
+#container
+{line-height:130%;
+width:800px;
+overflow:auto;
+margin:auto; border:3px solid #E6E6E6; 
+border-radius:5px; padding:10px; box-shadow: 10px 10px 5px #888888;
+}
+#topsection{background-image:url('images/long2.png'); 
+				background-position:right;
+				background-repeat:no-repeat;
+height:100px; border-bottom:1px solid grey; overflow:auto;}
+#title { }
+#title h1{padding:0; margin:4px 0 12px 0; color:#9A2900;
+font-family: "Times New Roman", Times, serif; font-size:1.9em;}
+#title a {color:#9A2900;}
+#nav {margin:14px 0 0 0; float:left; }
+#nav h1{padding:0; margin:0;}
+#nav ul {list-style-type:none; margin:0; padding:0;}
+#nav ul li {float:left;  padding:0px 35px 0px 0;}
+
+a.nav:link {text-decoration:none;color:#000000;}/* unvisited link */
+a.nav:visited {color:#000000;}  /* visited link */
+a.nav:hover {color:grey;}  /* mouse over link */
+a.nav:active {color:#000000;}  /* selected link */
+
+a.current:link {text-decoration:none; color:grey;}
+a.current:visited {text-decoration:none; color:grey;}
+a.current:hover {text-decoration:none; color:grey;}
+a.current:active {text-decoration:none; color:grey;}
+
+a.updates:link {text-decoration:underline; color:black;}
+a.updates:visited {text-decoration:none; color:black;}
+a.updates:hover {text-decoration:none; color:grey;}
+a.updates:active {text-decoration:none; color:black;}
+
+
+#left-column
+{float:left; width:70%;}
+#left-columnchild1
+{}
+
+
+
+
+
+#right-column
+{width:28%;
+float:right; }
+#right-columnchild1
+{}
+
+#introductory { float:right; border:1px solid #C76300; margin:5px 0 30px 0;
+					background-color:#FFEBC2; text-align:left; border-radius:5px;}	
+#introductory h1, h2, p {padding:5px 10px;}
+#introductory h2 {text-align:center;}
+#introductory a:link {text-decoration:underline;color:black;}
+#introductory a:visited {text-decoration:underline;color:black;}
+#introductory a:hover {text-decoration:underline;color:grey;}
+#introductory a:active {text-decoration:underline;color:black;}
+
+#school-updates {float:left; width:100%;  margin:15px 0 25px 0;
+}
+#school-updates h2 {text-align:center; font-size:1.1em; background-color:black; color:white; border-radius:5px;}
+#school-updates h3 {font-size:0.9em; margin-bottom:-8px;
+					margin-top:25px; padding-bottom:0; text-align:left; color:#9a2900;
+padding-left:9px;}
+#school-updates p {text-align:left; font-size:0.8em; color:black;}
+
+
+#unorderedlist
+{
+width:80%;
+padding:0px;
+margin:30px auto;
+text-align:center;
+list-style-type:none;
+line-height:200%;
+font-size :14px; 
+font-weight :bold;
+border-radius :25px;
+-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+
+
+
+
+address {
+text-decoration:underline;
+text-align:center; }
+
+#copyright
+{
+text-align:center;margin:25px 0 25px;0;
+}
+
+
+.smalltext {font-size:0.8em;}
+
+/************************MOBILE*************************/
+#mwrapper
+{ width:100%;}
+#mtophead
+{width:100%;}
+#mfirst
+{width:50%;float:left}
+#msecond
+{width:50%;float:left}
+#mthird
+{width:50%;float:left}
+#mfourth
+{width:50%;float:left}
+
+
+.age {font-size:0.8em; }
+
+h1,h2,h3 {font-weight:normal;}
+
+#school-updates h3, p {}
+
+#displayBlock {display:none;}
+
+#less, #more {font-weight:bold;}
+
+
+
+
+#school-updates1 h3, p {}
+
+#displayBlock1 {display:none;}
+
+#less1, #more1 {font-weight:bold;}
