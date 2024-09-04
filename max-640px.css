@@ -1,6 +1,6 @@
 /**MOBILE**/
 .ticket {width:100%; margin-top:25px;}
-
+.centre {display:none;margin:auto; width:100%;}
  
 .covid_title { background:rgba(251,183,65,0.5); border-radius: 5px;}
 #covid {background:rgba(251,183,65,0.5); border-radius: 5px;}
