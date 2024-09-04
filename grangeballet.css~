@@ -1,6 +1,6 @@
 /* Generic Selectors */ 
 
-.ticket {width:100%; margin-top:25px;}
+.ticket {width:100%;}
 .centre {margin:auto; width:100%;}
 
 h3.large_letters{font-size: 130%;}
